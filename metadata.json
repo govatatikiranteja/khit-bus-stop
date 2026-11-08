@@ -1,0 +1,6 @@
+{
+  "name": "KHIT BUS STOP - Official College Bus Portal",
+  "description": "Official college bus transportation portal for KHIT College of Engineering, Guntur. Explore bus routes, stops, schedules, and timings.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

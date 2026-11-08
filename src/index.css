@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@theme {
+  --color-maroon-900: #550c1f;
+  --color-maroon-800: #6d1029;
+  --color-maroon-700: #851735;
+  --color-maroon-600: #9e1f41;
+  --color-maroon-500: #b82a4f;
+  --color-maroon-50: #fbf1f3;
+
+  --color-gold-600: #c98400;
+  --color-gold-500: #f0a000;
+  --color-gold-400: #ffb72b;
+  --color-gold-100: #fdf3de;
+  --color-gold-50: #fffaf0;
+
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-serif: 'Cinzel', Georgia, serif;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    color: #1a1a1a;
+    background-color: #ffffff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+/* Custom print style for Timetable */
+@media print {
+  header, footer, .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+}
